@@ -1,0 +1,12 @@
+.clear {
+  clear: both
+}
+body {
+	font-family: '华文细黑','黑体-简', sans-serif;
+    font-size: 14px;
+	background-color: #eeeeee;
+	color: #323232;
+}
+.loader{
+	margin:100px auto;
+}
