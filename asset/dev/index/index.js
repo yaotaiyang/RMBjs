@@ -92,7 +92,7 @@
 					{ className: 'index' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'index-top' },
+						{ className: 'index-top', style: { "backgroundImage": "url(../images/index1.jpg)", "backgroundRepeat": 'no-repeat' } },
 						_react2.default.createElement(
 							'div',
 							{ className: 'index-title' },
@@ -118,7 +118,7 @@
 							{ className: 'index-github' },
 							_react2.default.createElement(
 								'a',
-								{ href: 'https://github.com/meiyouf2e/myui', target: '_blank' },
+								{ href: 'https://github.com/TNT-F2E/RMBjs', target: '_blank' },
 								_react2.default.createElement(_antd.Icon, { type: 'github' }),
 								'  Github'
 							)
@@ -148,7 +148,7 @@
 									_react2.default.createElement(
 										'div',
 										{ className: 'index-list-img' },
-										_react2.default.createElement('img', { src: '/images/mbile.jpeg' })
+										_react2.default.createElement('img', { src: '../images/mbile.jpeg' })
 									),
 									_react2.default.createElement(
 										'div',
@@ -171,7 +171,7 @@
 									_react2.default.createElement(
 										'div',
 										{ className: 'index-list-img' },
-										_react2.default.createElement('img', { src: '/images/components.png' })
+										_react2.default.createElement('img', { src: '../images/components.png' })
 									),
 									_react2.default.createElement(
 										'div',
@@ -194,7 +194,7 @@
 									_react2.default.createElement(
 										'div',
 										{ className: 'index-list-img' },
-										_react2.default.createElement('img', { src: '/images/performance1.png' })
+										_react2.default.createElement('img', { src: '../images/performance1.png' })
 									),
 									_react2.default.createElement(
 										'div',
@@ -217,7 +217,7 @@
 									_react2.default.createElement(
 										'div',
 										{ className: 'index-list-img' },
-										_react2.default.createElement('img', { src: '/images/react.png' })
+										_react2.default.createElement('img', { src: '../images/react.png' })
 									),
 									_react2.default.createElement(
 										'div',
@@ -292,20 +292,6 @@
 								),
 								_react2.default.createElement(
 									_antd.Menu.Item,
-									{ key: 'frame' },
-									_react2.default.createElement(
-										_reactRouter.Link,
-										{ to: '/frame' },
-										_react2.default.createElement(_antd.Icon, { type: 'inde' }),
-										_react2.default.createElement(
-											'span',
-											null,
-											'MYUI前端架构'
-										)
-									)
-								),
-								_react2.default.createElement(
-									_antd.Menu.Item,
 									{ key: 'build' },
 									_react2.default.createElement(
 										_reactRouter.Link,
@@ -354,7 +340,7 @@
 							'问题与建议:',
 							_react2.default.createElement(
 								'a',
-								{ href: 'https://github.com/meiyouf2e/myui/issues', target: '_blank' },
+								{ href: 'https://github.com/TNT-F2E/RMBjs/issues', target: '_blank' },
 								' ',
 								_react2.default.createElement(_antd.Icon, { type: 'github' }),
 								' Issues'

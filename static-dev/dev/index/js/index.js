@@ -25,34 +25,34 @@ $(function(){
 	const Index = React.createClass({
 		render:()=>{
 			return <div className="index">
-				<div className="index-top">
+				<div className="index-top" style={{"backgroundImage":"url(../images/index1.jpg)","backgroundRepeat":'no-repeat'}}>
 					<div className="index-title"><span className="warning">MY</span>UI</div>
 					<div>一个针对移动端的前端框架</div>
 					<div className="index-des">
 						前端TNT小组出品
 					</div>
-					<div className="index-github"><a href="https://github.com/meiyouf2e/myui" target="_blank"><Icon type="github"/>  Github</a></div>
+					<div className="index-github"><a href="https://github.com/TNT-F2E/RMBjs" target="_blank"><Icon type="github"/>  Github</a></div>
 					<div><div className="index-start">Let's start!</div></div>
 				</div>
 				<div className="index-list">
 					<Row>
 				      <Col span="6"><div className="index-list-item">
-				      		<div className="index-list-img"><img src="/images/mbile.jpeg"/></div>
+				      		<div className="index-list-img"><img src="../images/mbile.jpeg"/></div>
 				      		<div className="index-list-title">针对移动端</div>
 				      		<div className="index-list-des">针对移动web的前端框架，代码更适宜于移动端，充分考虑移动端性能、兼容问题、hybird开发模式等</div>
 				      </div></Col>
 				      <Col span="6"><div className="index-list-item">
-				      	<div className="index-list-img"><img src="/images/components.png"/></div>
+				      	<div className="index-list-img"><img src="../images/components.png"/></div>
 				      	<div className="index-list-title">丰富的组件</div>
 				      	<div className="index-list-des">丰富的移动ui组件,基于h5,css3,并根据css3能力做好js动画兼容,完美兼容各种移动机型</div>
 				      </div></Col>
 				      <Col span="6"><div className="index-list-item">
-				      	<div className="index-list-img"><img src="/images/performance1.png"/></div>
+				      	<div className="index-list-img"><img src="../images/performance1.png"/></div>
 				      	<div className="index-list-title">高性能 更智能</div>
 				      	<div className="index-list-des">努力让体验接近原生效果,并从多方位提升页面性能,引入search管理页面功能,实现智能化（切换hybird和web模式等）</div>
 				      </div></Col>
 				      <Col span="6"><div className="index-list-item">
-				     	<div className="index-list-img"><img src="/images/react.png"/></div>
+				     	<div className="index-list-img"><img src="../images/react.png"/></div>
 				      	<div className="index-list-title">基于React</div>
 				      	<div className="index-list-des">本框架基于React,且提供了基于webpack和gulp的脚手架工具,引入hotloader,htmlone等,使创建、开发、上线更简单</div>
 				      </div></Col>
@@ -86,7 +86,6 @@ $(function(){
 			        mode="horizontal"
 			        style={{width:"",WebkitBoxFlex:1,border:0}}>
 				       <Menu.Item key="index" ><Link to="/index"><Icon type="home" /><span>首页</span></Link></Menu.Item>
-				       <Menu.Item key="frame" ><Link to="/frame"><Icon type="inde" /><span>MYUI前端架构</span></Link></Menu.Item>
 				       <Menu.Item key="build" ><Link to="/build"><Icon type="caret-circle-o-right" /><span>构建工具</span></Link></Menu.Item>
 				       <Menu.Item key="wapcomponents" ><Link to="/wapcomponents"><Icon type="appstore-o" /><span>移动web组件</span></Link></Menu.Item>
 			     	</Menu>
@@ -97,7 +96,7 @@ $(function(){
 		     </div>
 		     <div className="footer">
 					<div>我们是虚拟世界的建筑师</div>
-					<div className="issues">问题与建议:<a href="https://github.com/meiyouf2e/myui/issues" target="_blank"> <Icon type="github"/> Issues</a></div>
+					<div className="issues">问题与建议:<a href="https://github.com/TNT-F2E/RMBjs/issues" target="_blank"> <Icon type="github"/> Issues</a></div>
 					<div className="aboutus">联系我们: <Icon type="mail"/> 176929463@qq.com</div>
 					<div className="andps">最终解释权归本团队成员所有</div>
 				</div>
