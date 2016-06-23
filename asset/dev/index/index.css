@@ -15903,7 +15903,7 @@ body {
 
 .index-top {
   overflow: hidden;
-  background: url("/images/index1.jpg") #fff no-repeat;
+  background-color: #fff;
   background-size: 100% 100%;
   height: 0px;
   padding-top: 12%;
@@ -15979,12 +15979,12 @@ body {
   }
 }
 
-.index-list .row {
+.index-list .ant-row {
   margin-top: 20px;
   display: -webkit-box;
 }
 
-.index-list .col-6 {
+.index-list .ant-col-6 {
   padding: 10px;
   background: #fff;
   border-radius: 5px;
